@@ -1,5 +1,6 @@
 import random
 import math
+
 RULES = 'Find the greatest common divisor of given numbers.'
 
 
