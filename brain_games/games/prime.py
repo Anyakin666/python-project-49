@@ -11,4 +11,8 @@ def get_question_and_answer():
                 return False
         else:
             return True
-    return str(n), str(is_prime_fast(n))
+    if is_prime_fast(n) is False:
+        correct = 'no'
+    else:
+        correct = 'yes'
+    return str(n), correct
